@@ -87,5 +87,8 @@
     "scripts": {
       "postchangelog": "npm run changelog"
     }
+  },
+  "bin": {
+    "shelljs-changelog": "./scripts/post-changelog/index.js"
   }
 }
