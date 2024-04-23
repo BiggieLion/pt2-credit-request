@@ -10,7 +10,6 @@
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "postinstall": "npx husky install",
-    "changelog": "node scripts/post-changelog",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
@@ -82,11 +81,6 @@
     "commitizen": {
       "path": "cz-conventional-changelog",
       "disableScopeLowerCase": true
-    }
-  },
-  "standard-version": {
-    "scripts": {
-      "postchangelog": "npm run changelog"
     }
   }
 }
