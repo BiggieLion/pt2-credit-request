@@ -1,6 +1,6 @@
 {
   "name": "pt2-credit-request",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "PT2 Microservice - This is a microservice for credit request",
   "author": "Jair León && Enrique Sánchez",
   "private": true,
