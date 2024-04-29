@@ -1,6 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { ConfigModule } from '@nestjs/config';
 import { configuration, validationSchema } from 'config';
 
@@ -12,7 +10,5 @@ import { configuration, validationSchema } from 'config';
       validationSchema,
     }),
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
-export class AppModule {}
+export class ApiModule {}
